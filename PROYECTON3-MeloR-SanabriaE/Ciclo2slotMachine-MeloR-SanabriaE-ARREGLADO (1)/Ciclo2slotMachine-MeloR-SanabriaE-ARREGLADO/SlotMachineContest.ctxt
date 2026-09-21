@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sun Sep 20 22:33:04 COT 2026
+comment0.target=SlotMachineContest
+comment0.text=\r\n Resuelve y simula el problema de la marat\u00F3n ICPC 2025 "Slot Machine".\r\n Usa SlotMachine unicamente a trav\u00E9s de tres puntos de entrada permitidos\r\n como "testing tool"\: el constructor SlotMachine(n), spin(wheel,steps) y\r\n distinctSymbols(). Nunca se consulta el color real de ning\u00FAn s\u00EDmbolo,\r\n igual que en el problema real, donde solo se conoce el conteo de\r\n distintos, nunca los s\u00EDmbolos en s\u00ED.\r\n \r\n @author Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n @version 1.1\r\n
+comment1.params=n
+comment1.target=int[][] solve(int)
+comment1.text=\r\n Encuentra la secuencia de acciones necesarias para ganar el jackpot en\r\n una m\u00E1quina nueva de n ruedas y n s\u00EDmbolos. La m\u00E1quina permanece\r\n invisible durante todo el proceso (requisito de dise\u00F1o).\r\n \r\n @param n N\u00FAmero de ruedas y s\u00EDmbolos de la m\u00E1quina a resolver.\r\n @return Secuencia de acciones {wheel, steps}, en el orden en que deben aplicarse.\r\n
+comment2.params=n
+comment2.target=void simulate(int)
+comment2.text=\r\n Crea una m\u00E1quina de n ruedas, la resuelve OCULTA (rol de testing tool,\r\n igual que solve()), y solo la revela al final ya ganada, igual que en\r\n el problema real, donde nunca ves las ruedas mientras las manipulas a\r\n ciegas, solo el resultado cuando por fin ganas.\r\n \r\n @param n N\u00FAmero de ruedas y s\u00EDmbolos de la m\u00E1quina a simular.\r\n
+comment3.params=machine n
+comment3.target=int[][] solveOn(SlotMachine, int)
+comment3.text=\r\n Resuelve una m\u00E1quina ya existente (creada por quien llama), en vez de\r\n crear una nueva. \u00DAtil para pruebas de unidad\: permite crear la\r\n m\u00E1quina, resolverla, y verificar isJackpot() directamente sobre ella.\r\n \r\n @param machine M\u00E1quina a resolver (invisible o visible; no se cambia su visibilidad aqu\u00ED).\r\n @param n N\u00FAmero de ruedas y s\u00EDmbolos de esa m\u00E1quina.\r\n @return Secuencia de acciones {wheel, steps} aplicadas, en orden.\r\n
+numComments=4

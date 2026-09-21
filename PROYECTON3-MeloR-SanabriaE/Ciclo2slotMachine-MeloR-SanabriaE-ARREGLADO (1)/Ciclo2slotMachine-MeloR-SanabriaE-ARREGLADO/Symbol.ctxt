@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Sep 20 22:31:06 COT 2026
+comment0.target=Symbol
+comment0.text=\r\n Representa un s\u00EDmbolo dentro de una rueda de la m\u00E1quina tragamonedas.\r\n reutilizamos el paquete shapes.\r\n \r\n @author Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=Symbol(java.lang.String)
+comment1.text=\r\n Constructor para crear simbolos.\r\n \r\n @param color El nombre del color del s\u00EDmbolo\r\n
+comment2.target=java.lang.String getColor()
+comment2.text=\r\n Obtiene el color representativo de este s\u00EDmbolo.\r\n \r\n @return Cadena de texto con el color del s\u00EDmbolo.\r\n
+comment3.params=x y
+comment3.target=void setPosition(int, int)
+comment3.text=\r\n Actualiza la posici\u00F3n geom\u00E9trica del s\u00EDmbolo en el Canvas.\r\n Calcula la diferencia de movimiento respecto a su posici\u00F3n actual.\r\n \r\n @param x Nueva coordenada X.\r\n @param y Nueva coordenada Y.\r\n
+comment4.target=void makeVisible()
+comment4.text=\r\n Hace que la gr\u00E1fica del s\u00EDmbolo sea visible en pantalla.\r\n
+comment5.target=void makeInvisible()
+comment5.text=\r\n Oculta la representaci\u00F3n gr\u00E1fica del s\u00EDmbolo de la pantalla.\r\n
+numComments=6
