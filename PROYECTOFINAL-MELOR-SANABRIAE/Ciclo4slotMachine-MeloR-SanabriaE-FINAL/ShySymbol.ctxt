@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sun Oct 04 19:58:46 COT 2026
+comment0.target=ShySymbol
+comment0.text=\r\n S\u00EDmbolo especial\: alterna su estado de visible a invisible\r\n cada vez que es seleccionado en la rueda, es decir, cada vez que un giro\r\n lo deja alineado con la ventana (Wheel.advance() llama onSelected()).\r\n Empieza visible\: la primera vez que es seleccionado se oculta, la\r\n segunda se muestra, y as\u00ED sucesivamente. Mientras est\u00E1 "oculto" y es el\r\n s\u00EDmbolo seleccionado, la ventana de la rueda se ve vac\u00EDa.\r\n \r\n @author Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n @version 2.0\r\n
+comment1.params=color
+comment1.target=ShySymbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo shy del color indicado, en estado visible.\r\n \r\n @param color Color del s\u00EDmbolo.\r\n
+comment2.target=void onSelected()
+comment2.text=\r\n Cada vez que el s\u00EDmbolo es seleccionado en la rueda, alterna entre\r\n visible e invisible.\r\n
+comment3.target=boolean isShown()
+comment3.text=\r\n Indica si, cuando le toque mostrarse, este s\u00EDmbolo debe verse (true)\r\n o permanecer oculto (false).\r\n \r\n @return true si su estado actual es "visible".\r\n
+comment4.target=void makeVisible()
+comment4.text=\r\n Solo se dibuja si su estado actual es visible; si est\u00E1 en estado\r\n "oculto" permanece invisible aunque su rueda lo haya seleccionado.\r\n
+numComments=5
