@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Oct 04 20:13:11 COT 2026
+comment0.target=SlotMachineCC2Test
+comment0.text=\r\n Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n Prefijo asignado\: MrSe (Melo-Rangel, Sanabria-Espinel; orden alfab\u00E9tico por primer apellido)\r\n @version 1.1\r\n
+comment1.target=void accordingMrSeShouldSwapWheelsRegardlessOfSymbolCount()
+comment1.text=\r\n Deber\u00EDa\: al intercambiar dos ruedas, cada una debe pasar a mostrar\r\n el s\u00EDmbolo que antes mostraba la otra. Como todas las ruedas\r\n comparten siempre la misma secuencia de s\u00EDmbolos, se verifica con\r\n configuration() (qu\u00E9 se ve en cada rueda), no con symbols().\r\n
+comment2.target=void accordingMrSeShouldRejectSwapWhenFewerThanTwoWheelsExist()
+comment2.text=\r\n No deber\u00EDa\: hacer swap si la m\u00E1quina tiene menos de dos ruedas\r\n (no hay con qu\u00E9 intercambiar).\r\n
+comment3.target=void accordingMrSeShouldRejectSpinSetSymbolsWhenColorMissing()
+comment3.text=\r\n No deber\u00EDa\: aplicar ning\u00FAn cambio si uno de los colores pedidos\r\n no existe en la secuencia compartida (comportamiento todo o nada).\r\n
+comment4.target=void accordingMrSeShouldKeepLockedWheelFixedAndAllowSpinAfterUnlock()
+comment4.text=\r\n Deber\u00EDa\: una rueda fijada (lock) no debe moverse ante un intento de\r\n giro, y debe volver a poder girar despu\u00E9s de un unlock.\r\n
+comment5.target=void accordingMrSeShouldReturnToSameVisibleColorAfterFullRotation()
+comment5.text=\r\n Deber\u00EDa\: si una rueda tiene N s\u00EDmbolos distintos y se gira exactamente\r\n N pasos, debe volver a mostrar el mismo color visible inicial (dio\r\n una vuelta completa).\r\n
+numComments=6

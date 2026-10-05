@@ -1,0 +1,21 @@
+#BlueJ class context
+#Sun Oct 04 20:11:07 COT 2026
+comment0.target=SlotMachineCC4Test
+comment0.text=\r\n Pruebas de unidad COMPARTIDAS del ciclo 4.\r\n Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n MrSe (Melo-Rangel, Sanabria-Espinel\r\n @version 2.0\r\n
+comment1.target=void accordingMrSeShouldNotLockARebelWheel()
+comment1.text=\r\n No deber\u00EDa\: dejar que una rueda rebelde sea fijada (lock).\r\n
+comment2.target=void accordingMrSeShouldNotSwapARebelWheel()
+comment2.text=\r\n No deber\u00EDa\: dejar que una rueda rebelde sea intercambiada, ni como\r\n primera ni como segunda rueda del swap; la configuraci\u00F3n no cambia.\r\n
+comment3.target=void accordingMrSeShouldNotDeleteARebelWheel()
+comment3.text=\r\n No deber\u00EDa\: dejar que una rueda rebelde sea eliminada; la m\u00E1quina\r\n conserva todas sus ruedas.\r\n
+comment4.target=void accordingMrSeShouldAllowLockSwapAndDeleteOnNormalWheels()
+comment4.text=\r\n Deber\u00EDa\: una rueda normal s\u00ED poder fijarse, intercambiarse y\r\n eliminarse (contraste con la rebelde).\r\n
+comment5.target=void accordingMrSeShouldLeftyWheelCopyItsLeftNeighborWhenSpun()
+comment5.text=\r\n Deber\u00EDa\: una rueda lefty con vecina a la izquierda copiar el s\u00EDmbolo\r\n de esa vecina al girar, y por tanto lograr jackpot.\r\n
+comment6.target=void accordingMrSeShouldLeftyWheelWithoutNeighborBehaveNormally()
+comment6.text=\r\n Deber\u00EDa\: una rueda lefty que es la primera (sin vecina izquierda)\r\n comportarse como normal\: tras una vuelta completa muestra lo mismo.\r\n
+comment7.target=void accordingMrSeShouldLeftyWheelUseItsNewNeighborAfterSwap()
+comment7.text=\r\n Deber\u00EDa\: tras un swap, la lefty copiar a su NUEVA vecina izquierda\r\n (el vecino se recalcula cuando cambia el orden).\r\n
+comment8.target=void accordingMrSeShouldKeepWorkingWithEphemeralAndShySymbols()
+comment8.text=\r\n Deber\u00EDa\: una m\u00E1quina con s\u00EDmbolos ephemeral y shy seguir\r\n funcionando tras muchos giros\: no pierde s\u00EDmbolos, no falla y los\r\n colores visibles siguen siendo de la secuencia.\r\n
+numComments=9

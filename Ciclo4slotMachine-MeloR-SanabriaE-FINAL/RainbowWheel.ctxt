@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Oct 04 20:10:49 COT 2026
+comment0.target=RainbowWheel
+comment0.text=\r\n Rueda especial propuesta por nosotros . Al girar, en vez de\r\n avanzar por su cuenta, adopta el s\u00EDmbolo M\u00C1S FRECUENTE entre las dem\u00E1s\r\n ruedas de la m\u00E1quina ("se une a la mayor\u00EDa"). En caso de empate gana el\r\n s\u00EDmbolo de la rueda m\u00E1s a la izquierda. Si no hay otras ruedas se\r\n comporta como una rueda normal.\r\n \r\n Se diferencia de LeftyWheel en que observa a TODAS las ruedas (no solo a\r\n su vecina izquierda) y de placeSymbol en que el usuario no elige el\r\n color\: lo decide la rueda al girar. Todo vive dentro de spin(), por lo\r\n que SlotMachine no necesita conocer su tipo osea aplicamos(polimorfismo).\r\n \r\n @author Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n @version 2.0\r\n
+comment1.params=x y
+comment1.target=RainbowWheel(int, int)
+comment1.text=\r\n Crea una rueda rainbow en la posici\u00F3n indicada.\r\n \r\n @param x Coordenada X inicial.\r\n @param y Coordenada Y inicial.\r\n
+comment2.target=void spin()
+comment2.text=\r\n Copia el s\u00EDmbolo visible m\u00E1s frecuente entre las dem\u00E1s ruedas. Sin\r\n otras ruedas, se comporta como una rueda normal.\r\n
+comment3.target=java.lang.String mostFrequentColorOfOthers()
+comment3.text=\r\n Calcula el color visible m\u00E1s frecuente entre las otras ruedas.\r\n \r\n @return El color, o null si no hay otras ruedas con s\u00EDmbolos.\r\n
+numComments=4
