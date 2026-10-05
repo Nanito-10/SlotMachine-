@@ -1,9 +1,0 @@
-#BlueJ class context
-#Sun Oct 04 20:10:49 COT 2026
-comment0.target=RebelWheel
-comment0.text=\r\n Rueda especial \: no se deja fijar (lock), intercambiar\r\n (swap) ni eliminar (delWheel). SlotMachine verifica isRebel() antes de\r\n permitir cualquiera de esas tres operaciones y rechaza con reportError\r\n si la rueda es rebelde.\r\n \r\n @author Juan Jos\u00E9 Sanabria Espinel y Tomas Alejandro Melo Rangel\r\n @version 1.0\r\n
-comment1.params=x y
-comment1.target=RebelWheel(int, int)
-comment1.text=\r\n Crea una rueda rebelde en la posici\u00F3n indicada.\r\n \r\n @param x Coordenada X inicial.\r\n @param y Coordenada Y inicial.\r\n
-comment2.target=boolean isRebel()
-numComments=3
